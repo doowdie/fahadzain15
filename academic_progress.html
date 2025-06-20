@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fahad's Academic Journey | ITEC50</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <h1>ITEC50 Progress Log!</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home!</a></li>
+        <li><a href="profile.html">About Me!</a></li>
+        <li><a href="playlist.html">My Playlist!</a></li>
+        <li><a href="favorites.html">Favorites!</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="progress-section">
+      <h2>My Learning Journey in ITEC50</h2>
+      <p>My Academic Progress with the Course ITEC50 🎓</p>
+
+      <!-- quizzes -->
+        <div class="progress-category">
+          <h3>📝 Quizzes</h3>
+
+          <div class="quiz-buttons">
+            <button class="quiz-btn" data-full="quiz 1.jpg">Quiz 1!</button>
+            <button class="quiz-btn" data-full="quiz2.jpg">Quiz 2!</button>
+            <button class="quiz-btn" data-full="quiz3.jpg">Quiz 3!</button>
+            <button class="quiz-btn" data-full="quiz4.jpg">Quiz 4!</button>
+            <button class="quiz-btn" data-full="quiz5.jpg">Quiz 5!</button>
+            <button class="quiz-btn" data-full="quiz6.jpg">Quiz 6!</button>
+          </div>
+
+          <p class="section-instruction">Click a quiz above to view the quiz!</p>
+
+          <!-- lightbox overlay -->
+          <div id="lbOverlay" class="lightbox-overlay">
+            <span class="lb-close">&times;</span>
+            <img class="lb-image" src="" alt="Quiz Screenshot">
+          </div>
+        </div>
+
+        <div class="progress-category">
+          <h3>📚 Exams</h3>
+          <div class="exam-gallery">
+            <div class="exam-wrap" data-full="midterms.jpg">
+              <img src="midterms.jpg" alt="Midterm Exam">
+              <div class="exam-label">Midterm Exam</div>
+            </div>
+            <div class="exam-wrap" data-full="finals.jpg">
+              <img src="finals.jpg" alt="Final Exam">
+              <div class="exam-label">Final Exam</div>
+            </div>
+          </div>
+
+          <p class="section-instruction">Click an exam above to view the full image.</p>
+          <!-- reused lightbox overlay -->
+          <div id="lbOverlay" class="lightbox-overlay">
+            <span class="lb-close">&times;</span>
+            <img class="lb-image" src="" alt="Full‑size View">
+          </div>
+        </div>
+      
+      <!-- acad progress -->
+      <div class="progress-category">
+        <h3>🎨 Projects</h3>
+        <div class="activitypictures">
+          <a href="activity1.jpg" class="project-btn" target="_blank">Activity 1!</a>
+          <a href="activity2.jpg" class="project-btn" target="_blank">Activity 2!</a>
+          <a href="activity3.jpg" class="project-btn" target="_blank">Activity 3!</a>
+          <a href="activity4.jpg" class="project-btn" target="_blank">Activity 4!</a>
+          <a href="badge.jpg" class="project-btn" target="_blank">Cisco Badge!</a>
+        </div>
+      </div>
+
+      <p class="section-instruction">Click an activity button to view the activity.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Fahad | Academic Growth in Stardew Spirit</p>
+  </footer>
+
+  <script src="everything.js"></script>
+</body>
+</html>

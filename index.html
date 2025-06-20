@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fahad's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1>Fahad's Farm Journal!</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="playlist.html">My Playlist!</a></li>
+        <li><a href="profile.html">About Me!</a></li>
+        <li><a href="academic_progress.html">Progress!</a></li>
+        <li><a href="favorites.html">Favorites!</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="main-content">
+    <section>
+      <h2>Welcome to My Portfolio!</h2>
+      <p>Here you'll find my learning journey through ITEC50, inspired by the peaceful vibes of Stardew Valley.</p>
+      
+      <!-- dancing junimo -->
+      <div class="junimo-wrapper">
+        <img src="junimoo.gif" alt="Dancing Junimo" class="junimo-gif">
+        <div class="junimo-text" onclick="openModal()">Let's grow together!</div>
+
+          <!-- message from the junimos -->
+          <div id="junimoModal" class="modal">
+            <div class="modal-content">
+              <span class="close-button" onclick="closeModal()">&times;</span>
+              <h3>A Note from the Junimos</h3>
+              <p>"We see your progress... and we're proud. Keep growing, Farmer!"</p>
+              <img src="junimo.gif" alt="Happy Junimo" class="junimo-gif">
+            </div>
+          </div>
+          <h6>click for something cute to happen!</h6>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Fahad D. Zainalabedin | Designed in Stardew Spirit</p>
+  </footer>
+
+  <script src="everything.js"></script>
+</body>
+</html>
